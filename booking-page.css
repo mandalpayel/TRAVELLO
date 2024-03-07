@@ -1,0 +1,212 @@
+body {
+    margin: 0;
+    padding: 0;
+    position: inherit;
+    
+}
+
+.topRightImage {
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-width: 900px;
+    
+}
+
+.leftImage {
+    position: absolute;
+    top: 80px;
+    left: 60px;
+    max-width: 200px;
+    z-index: 2;
+}
+
+.buttonContainer {
+    position: absolute;
+    top: 80px;
+    right: 60px;
+    display: flex;
+    align-items: center; /* Align items vertically */
+}
+
+.buttonContainer button {
+    margin: 9px;
+    padding: 10px;
+    font-size: 20px;
+    z-index: 3;
+    background-color: transparent;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    transition: font-size 0.3s ease;
+}
+
+.buttonContainer button:hover{
+    font-size: 25px;
+}
+
+.Profile {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    z-index: 10;
+}
+.Profile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+.Profile:hover{
+    transform: scale(1.5);
+}
+
+
+.languageDropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 10px;
+    z-index: 10;
+}
+
+.languageDropdown select {
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    color: #000;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.languageDropdown select:hover {
+    background-color: #f2f2f2;
+}
+
+.languageDropdown select:focus {
+    outline: none;
+    background-color:rgb(245, 191, 92);
+}
+
+.languageDropdown select option {
+    background-color: #baec4f;
+    color: #000;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.languageDropdown select option:hover {
+    background-color: #4592d9;
+    font-size: 22px;
+}
+
+.Traveller{
+    position:absolute;
+    top: 100px;
+    right: 250px;
+    max-width: 1000px;
+}
+
+.thumbnails {
+    border: 2px solid black;
+    height: 530px;
+    width: 88%;
+    margin-top: 100px; /* Adjusted margin-top to match Box */
+    margin-left: 100px; /* Adjusted margin-left to position beside Box */
+    border-radius: 30px;
+    border-color: rgb(27, 26, 26);
+    box-shadow: gray 5px 5px 10px;
+    z-index: 3;
+    position: absolute;
+    background-color:transparent;
+    text-align: center;
+}
+.small-box {
+    width: 1100px; /* Adjust width as needed */
+    height: 75px; /* Adjust height as needed */
+    border: 2px solid black; /* Black border */
+    border-radius: 15px; /* Round corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    margin: 10px; /* Adjust margin as needed */
+    background-color: white;
+    margin-top:70px;
+    margin-left: 100px;
+    cursor: pointer;
+    box-shadow: gray 5px 5px 10px;
+
+}
+.small-box-1:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.horizontal-boxes {
+    display: flex;
+    /* justify-content: space-between; */
+    margin-top: 200px; /* Adjust as needed */
+    margin-left: 80px; /* Adjust as needed */
+    margin-right: 80px; /* Adjust as needed */
+    z-index: inherit;
+
+}
+
+
+.horizontal-box-1 {
+    width: calc(50% - 10px); /* Adjust width and margin as needed */
+    height: 86px; /* Adjust height as needed */
+    border: 2px solid black; /* Black border */
+    border-radius: 15px; /* Round corners */
+    background-color: transparent;
+    z-index: 3;
+    width:50%;
+    margin-left:30px;
+    box-shadow: gray 5px 5px 10px;
+    cursor: pointer;
+    margin-top: 50px;
+    
+}
+.horizontal-box-1:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.horizontal-box-2 {
+    width: calc(50% - 10px); /* Adjust width and margin as needed */
+    height: 86px; /* Adjust height as needed */
+    border: 2px solid black; /* Black border */
+    border-radius: 15px; /* Round corners */
+    background-color: transparent;
+    z-index: 3;
+    width:50%;
+    margin-left:100px;
+    box-shadow: gray 5px 5px 10px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+.horizontal-box-2:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.white-background {
+    background-color: white;
+}
+
+.booking {
+    text-align: center;
+    color: orange;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    text-shadow: 2px 2px 4px rgba(224, 128, 64, 0.608); /* Add shadow effect */
+}
+
+.complete {
+    text-align: center;
+    color: rgb(47, 185, 47);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    text-shadow: 2px 2px 4px rgba(89, 205, 87, 0.5); /* Add shadow effect */
+}
+
+
